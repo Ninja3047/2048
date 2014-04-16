@@ -148,7 +148,7 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 863.75px;
+  width: 500px;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
@@ -190,7 +190,7 @@ hr {
 .game-container {
   margin-top: 40px;
   position: relative;
-  padding: 15px;
+  padding: 7px;
   cursor: default;
   -webkit-touch-callout: none;
   -ms-touch-callout: none;
@@ -201,8 +201,8 @@ hr {
   touch-action: none;
   background: #bbada0;
   border-radius: 6px;
-  width: 863.75px;
-  height: 863.75px;
+  width: 500px;
+  height: 500px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -218,9 +218,9 @@ hr {
   z-index: 100;
   padding-top: 40px;
   text-align: center;
-  -webkit-animation: fade-in 800ms ease 1200ms;
-  -moz-animation: fade-in 800ms ease 1200ms;
-  animation: fade-in 800ms ease 1200ms;
+  -webkit-animation: fade-in 800ms ease 900ms;
+  -moz-animation: fade-in 800ms ease 900ms;
+  animation: fade-in 800ms ease 900ms;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   animation-fill-mode: both; }
@@ -266,16 +266,16 @@ hr {
   .game-message.game-won, .game-message.game-over {
     display: block; }
     .game-message.game-won p, .game-message.game-over p {
-      -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
-      -moz-animation: slide-up 1.5s ease-in-out 2500ms;
-      animation: slide-up 1.5s ease-in-out 2500ms;
+      -webkit-animation: slide-up 1.5s ease-in-out 1875ms;
+      -moz-animation: slide-up 1.5s ease-in-out 1875ms;
+      animation: slide-up 1.5s ease-in-out 1875ms;
       -webkit-animation-fill-mode: both;
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
     .game-message.game-won .mailing-list, .game-message.game-over .mailing-list {
-      -webkit-animation: fade-in 1.5s ease-in-out 2500ms;
-      -moz-animation: fade-in 1.5s ease-in-out 2500ms;
-      animation: fade-in 1.5s ease-in-out 2500ms;
+      -webkit-animation: fade-in 1.5s ease-in-out 1875ms;
+      -moz-animation: fade-in 1.5s ease-in-out 1875ms;
+      animation: fade-in 1.5s ease-in-out 1875ms;
       -webkit-animation-fill-mode: both;
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
@@ -285,7 +285,7 @@ hr {
   z-index: 1; }
 
 .grid-row {
-  margin-bottom: 15px; }
+  margin-bottom: 7px; }
   .grid-row:last-child {
     margin-bottom: 0; }
   .grid-row:after {
@@ -294,9 +294,9 @@ hr {
     clear: both; }
 
 .grid-cell {
-  width: 106.25px;
-  height: 106.25px;
-  margin-right: 15px;
+  width: 63.42857px;
+  height: 63.42857px;
+  margin-right: 7px;
   float: left;
   border-radius: 3px;
   background: rgba(238, 228, 218, 0.35); }
@@ -308,211 +308,211 @@ hr {
   z-index: 2; }
 
 .tile, .tile .tile-inner {
-  width: 107px;
-  height: 107px;
-  line-height: 116.25px; }
+  width: 64px;
+  height: 64px;
+  line-height: 73.42857px; }
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
   -moz-transform: translate(0px, 0px);
   transform: translate(0px, 0px); }
 .tile.tile-position-1-2 {
-  -webkit-transform: translate(0px, 121px);
-  -moz-transform: translate(0px, 121px);
-  transform: translate(0px, 121px); }
+  -webkit-transform: translate(0px, 70px);
+  -moz-transform: translate(0px, 70px);
+  transform: translate(0px, 70px); }
 .tile.tile-position-1-3 {
-  -webkit-transform: translate(0px, 242px);
-  -moz-transform: translate(0px, 242px);
-  transform: translate(0px, 242px); }
+  -webkit-transform: translate(0px, 140px);
+  -moz-transform: translate(0px, 140px);
+  transform: translate(0px, 140px); }
 .tile.tile-position-1-4 {
-  -webkit-transform: translate(0px, 363px);
-  -moz-transform: translate(0px, 363px);
-  transform: translate(0px, 363px); }
+  -webkit-transform: translate(0px, 211px);
+  -moz-transform: translate(0px, 211px);
+  transform: translate(0px, 211px); }
 .tile.tile-position-1-5 {
-  -webkit-transform: translate(0px, 485px);
-  -moz-transform: translate(0px, 485px);
-  transform: translate(0px, 485px); }
+  -webkit-transform: translate(0px, 281px);
+  -moz-transform: translate(0px, 281px);
+  transform: translate(0px, 281px); }
 .tile.tile-position-1-6 {
-  -webkit-transform: translate(0px, 606px);
-  -moz-transform: translate(0px, 606px);
-  transform: translate(0px, 606px); }
+  -webkit-transform: translate(0px, 352px);
+  -moz-transform: translate(0px, 352px);
+  transform: translate(0px, 352px); }
 .tile.tile-position-1-7 {
-  -webkit-transform: translate(0px, 727px);
-  -moz-transform: translate(0px, 727px);
-  transform: translate(0px, 727px); }
+  -webkit-transform: translate(0px, 422px);
+  -moz-transform: translate(0px, 422px);
+  transform: translate(0px, 422px); }
 .tile.tile-position-2-1 {
-  -webkit-transform: translate(121px, 0px);
-  -moz-transform: translate(121px, 0px);
-  transform: translate(121px, 0px); }
+  -webkit-transform: translate(70px, 0px);
+  -moz-transform: translate(70px, 0px);
+  transform: translate(70px, 0px); }
 .tile.tile-position-2-2 {
-  -webkit-transform: translate(121px, 121px);
-  -moz-transform: translate(121px, 121px);
-  transform: translate(121px, 121px); }
+  -webkit-transform: translate(70px, 70px);
+  -moz-transform: translate(70px, 70px);
+  transform: translate(70px, 70px); }
 .tile.tile-position-2-3 {
-  -webkit-transform: translate(121px, 242px);
-  -moz-transform: translate(121px, 242px);
-  transform: translate(121px, 242px); }
+  -webkit-transform: translate(70px, 140px);
+  -moz-transform: translate(70px, 140px);
+  transform: translate(70px, 140px); }
 .tile.tile-position-2-4 {
-  -webkit-transform: translate(121px, 363px);
-  -moz-transform: translate(121px, 363px);
-  transform: translate(121px, 363px); }
+  -webkit-transform: translate(70px, 211px);
+  -moz-transform: translate(70px, 211px);
+  transform: translate(70px, 211px); }
 .tile.tile-position-2-5 {
-  -webkit-transform: translate(121px, 485px);
-  -moz-transform: translate(121px, 485px);
-  transform: translate(121px, 485px); }
+  -webkit-transform: translate(70px, 281px);
+  -moz-transform: translate(70px, 281px);
+  transform: translate(70px, 281px); }
 .tile.tile-position-2-6 {
-  -webkit-transform: translate(121px, 606px);
-  -moz-transform: translate(121px, 606px);
-  transform: translate(121px, 606px); }
+  -webkit-transform: translate(70px, 352px);
+  -moz-transform: translate(70px, 352px);
+  transform: translate(70px, 352px); }
 .tile.tile-position-2-7 {
-  -webkit-transform: translate(121px, 727px);
-  -moz-transform: translate(121px, 727px);
-  transform: translate(121px, 727px); }
+  -webkit-transform: translate(70px, 422px);
+  -moz-transform: translate(70px, 422px);
+  transform: translate(70px, 422px); }
 .tile.tile-position-3-1 {
-  -webkit-transform: translate(242px, 0px);
-  -moz-transform: translate(242px, 0px);
-  transform: translate(242px, 0px); }
+  -webkit-transform: translate(140px, 0px);
+  -moz-transform: translate(140px, 0px);
+  transform: translate(140px, 0px); }
 .tile.tile-position-3-2 {
-  -webkit-transform: translate(242px, 121px);
-  -moz-transform: translate(242px, 121px);
-  transform: translate(242px, 121px); }
+  -webkit-transform: translate(140px, 70px);
+  -moz-transform: translate(140px, 70px);
+  transform: translate(140px, 70px); }
 .tile.tile-position-3-3 {
-  -webkit-transform: translate(242px, 242px);
-  -moz-transform: translate(242px, 242px);
-  transform: translate(242px, 242px); }
+  -webkit-transform: translate(140px, 140px);
+  -moz-transform: translate(140px, 140px);
+  transform: translate(140px, 140px); }
 .tile.tile-position-3-4 {
-  -webkit-transform: translate(242px, 363px);
-  -moz-transform: translate(242px, 363px);
-  transform: translate(242px, 363px); }
+  -webkit-transform: translate(140px, 211px);
+  -moz-transform: translate(140px, 211px);
+  transform: translate(140px, 211px); }
 .tile.tile-position-3-5 {
-  -webkit-transform: translate(242px, 485px);
-  -moz-transform: translate(242px, 485px);
-  transform: translate(242px, 485px); }
+  -webkit-transform: translate(140px, 281px);
+  -moz-transform: translate(140px, 281px);
+  transform: translate(140px, 281px); }
 .tile.tile-position-3-6 {
-  -webkit-transform: translate(242px, 606px);
-  -moz-transform: translate(242px, 606px);
-  transform: translate(242px, 606px); }
+  -webkit-transform: translate(140px, 352px);
+  -moz-transform: translate(140px, 352px);
+  transform: translate(140px, 352px); }
 .tile.tile-position-3-7 {
-  -webkit-transform: translate(242px, 727px);
-  -moz-transform: translate(242px, 727px);
-  transform: translate(242px, 727px); }
+  -webkit-transform: translate(140px, 422px);
+  -moz-transform: translate(140px, 422px);
+  transform: translate(140px, 422px); }
 .tile.tile-position-4-1 {
-  -webkit-transform: translate(363px, 0px);
-  -moz-transform: translate(363px, 0px);
-  transform: translate(363px, 0px); }
+  -webkit-transform: translate(211px, 0px);
+  -moz-transform: translate(211px, 0px);
+  transform: translate(211px, 0px); }
 .tile.tile-position-4-2 {
-  -webkit-transform: translate(363px, 121px);
-  -moz-transform: translate(363px, 121px);
-  transform: translate(363px, 121px); }
+  -webkit-transform: translate(211px, 70px);
+  -moz-transform: translate(211px, 70px);
+  transform: translate(211px, 70px); }
 .tile.tile-position-4-3 {
-  -webkit-transform: translate(363px, 242px);
-  -moz-transform: translate(363px, 242px);
-  transform: translate(363px, 242px); }
+  -webkit-transform: translate(211px, 140px);
+  -moz-transform: translate(211px, 140px);
+  transform: translate(211px, 140px); }
 .tile.tile-position-4-4 {
-  -webkit-transform: translate(363px, 363px);
-  -moz-transform: translate(363px, 363px);
-  transform: translate(363px, 363px); }
+  -webkit-transform: translate(211px, 211px);
+  -moz-transform: translate(211px, 211px);
+  transform: translate(211px, 211px); }
 .tile.tile-position-4-5 {
-  -webkit-transform: translate(363px, 485px);
-  -moz-transform: translate(363px, 485px);
-  transform: translate(363px, 485px); }
+  -webkit-transform: translate(211px, 281px);
+  -moz-transform: translate(211px, 281px);
+  transform: translate(211px, 281px); }
 .tile.tile-position-4-6 {
-  -webkit-transform: translate(363px, 606px);
-  -moz-transform: translate(363px, 606px);
-  transform: translate(363px, 606px); }
+  -webkit-transform: translate(211px, 352px);
+  -moz-transform: translate(211px, 352px);
+  transform: translate(211px, 352px); }
 .tile.tile-position-4-7 {
-  -webkit-transform: translate(363px, 727px);
-  -moz-transform: translate(363px, 727px);
-  transform: translate(363px, 727px); }
+  -webkit-transform: translate(211px, 422px);
+  -moz-transform: translate(211px, 422px);
+  transform: translate(211px, 422px); }
 .tile.tile-position-5-1 {
-  -webkit-transform: translate(485px, 0px);
-  -moz-transform: translate(485px, 0px);
-  transform: translate(485px, 0px); }
+  -webkit-transform: translate(281px, 0px);
+  -moz-transform: translate(281px, 0px);
+  transform: translate(281px, 0px); }
 .tile.tile-position-5-2 {
-  -webkit-transform: translate(485px, 121px);
-  -moz-transform: translate(485px, 121px);
-  transform: translate(485px, 121px); }
+  -webkit-transform: translate(281px, 70px);
+  -moz-transform: translate(281px, 70px);
+  transform: translate(281px, 70px); }
 .tile.tile-position-5-3 {
-  -webkit-transform: translate(485px, 242px);
-  -moz-transform: translate(485px, 242px);
-  transform: translate(485px, 242px); }
+  -webkit-transform: translate(281px, 140px);
+  -moz-transform: translate(281px, 140px);
+  transform: translate(281px, 140px); }
 .tile.tile-position-5-4 {
-  -webkit-transform: translate(485px, 363px);
-  -moz-transform: translate(485px, 363px);
-  transform: translate(485px, 363px); }
+  -webkit-transform: translate(281px, 211px);
+  -moz-transform: translate(281px, 211px);
+  transform: translate(281px, 211px); }
 .tile.tile-position-5-5 {
-  -webkit-transform: translate(485px, 485px);
-  -moz-transform: translate(485px, 485px);
-  transform: translate(485px, 485px); }
+  -webkit-transform: translate(281px, 281px);
+  -moz-transform: translate(281px, 281px);
+  transform: translate(281px, 281px); }
 .tile.tile-position-5-6 {
-  -webkit-transform: translate(485px, 606px);
-  -moz-transform: translate(485px, 606px);
-  transform: translate(485px, 606px); }
+  -webkit-transform: translate(281px, 352px);
+  -moz-transform: translate(281px, 352px);
+  transform: translate(281px, 352px); }
 .tile.tile-position-5-7 {
-  -webkit-transform: translate(485px, 727px);
-  -moz-transform: translate(485px, 727px);
-  transform: translate(485px, 727px); }
+  -webkit-transform: translate(281px, 422px);
+  -moz-transform: translate(281px, 422px);
+  transform: translate(281px, 422px); }
 .tile.tile-position-6-1 {
-  -webkit-transform: translate(606px, 0px);
-  -moz-transform: translate(606px, 0px);
-  transform: translate(606px, 0px); }
+  -webkit-transform: translate(352px, 0px);
+  -moz-transform: translate(352px, 0px);
+  transform: translate(352px, 0px); }
 .tile.tile-position-6-2 {
-  -webkit-transform: translate(606px, 121px);
-  -moz-transform: translate(606px, 121px);
-  transform: translate(606px, 121px); }
+  -webkit-transform: translate(352px, 70px);
+  -moz-transform: translate(352px, 70px);
+  transform: translate(352px, 70px); }
 .tile.tile-position-6-3 {
-  -webkit-transform: translate(606px, 242px);
-  -moz-transform: translate(606px, 242px);
-  transform: translate(606px, 242px); }
+  -webkit-transform: translate(352px, 140px);
+  -moz-transform: translate(352px, 140px);
+  transform: translate(352px, 140px); }
 .tile.tile-position-6-4 {
-  -webkit-transform: translate(606px, 363px);
-  -moz-transform: translate(606px, 363px);
-  transform: translate(606px, 363px); }
+  -webkit-transform: translate(352px, 211px);
+  -moz-transform: translate(352px, 211px);
+  transform: translate(352px, 211px); }
 .tile.tile-position-6-5 {
-  -webkit-transform: translate(606px, 485px);
-  -moz-transform: translate(606px, 485px);
-  transform: translate(606px, 485px); }
+  -webkit-transform: translate(352px, 281px);
+  -moz-transform: translate(352px, 281px);
+  transform: translate(352px, 281px); }
 .tile.tile-position-6-6 {
-  -webkit-transform: translate(606px, 606px);
-  -moz-transform: translate(606px, 606px);
-  transform: translate(606px, 606px); }
+  -webkit-transform: translate(352px, 352px);
+  -moz-transform: translate(352px, 352px);
+  transform: translate(352px, 352px); }
 .tile.tile-position-6-7 {
-  -webkit-transform: translate(606px, 727px);
-  -moz-transform: translate(606px, 727px);
-  transform: translate(606px, 727px); }
+  -webkit-transform: translate(352px, 422px);
+  -moz-transform: translate(352px, 422px);
+  transform: translate(352px, 422px); }
 .tile.tile-position-7-1 {
-  -webkit-transform: translate(727px, 0px);
-  -moz-transform: translate(727px, 0px);
-  transform: translate(727px, 0px); }
+  -webkit-transform: translate(422px, 0px);
+  -moz-transform: translate(422px, 0px);
+  transform: translate(422px, 0px); }
 .tile.tile-position-7-2 {
-  -webkit-transform: translate(727px, 121px);
-  -moz-transform: translate(727px, 121px);
-  transform: translate(727px, 121px); }
+  -webkit-transform: translate(422px, 70px);
+  -moz-transform: translate(422px, 70px);
+  transform: translate(422px, 70px); }
 .tile.tile-position-7-3 {
-  -webkit-transform: translate(727px, 242px);
-  -moz-transform: translate(727px, 242px);
-  transform: translate(727px, 242px); }
+  -webkit-transform: translate(422px, 140px);
+  -moz-transform: translate(422px, 140px);
+  transform: translate(422px, 140px); }
 .tile.tile-position-7-4 {
-  -webkit-transform: translate(727px, 363px);
-  -moz-transform: translate(727px, 363px);
-  transform: translate(727px, 363px); }
+  -webkit-transform: translate(422px, 211px);
+  -moz-transform: translate(422px, 211px);
+  transform: translate(422px, 211px); }
 .tile.tile-position-7-5 {
-  -webkit-transform: translate(727px, 485px);
-  -moz-transform: translate(727px, 485px);
-  transform: translate(727px, 485px); }
+  -webkit-transform: translate(422px, 281px);
+  -moz-transform: translate(422px, 281px);
+  transform: translate(422px, 281px); }
 .tile.tile-position-7-6 {
-  -webkit-transform: translate(727px, 606px);
-  -moz-transform: translate(727px, 606px);
-  transform: translate(727px, 606px); }
+  -webkit-transform: translate(422px, 352px);
+  -moz-transform: translate(422px, 352px);
+  transform: translate(422px, 352px); }
 .tile.tile-position-7-7 {
-  -webkit-transform: translate(727px, 727px);
-  -moz-transform: translate(727px, 727px);
-  transform: translate(727px, 727px); }
+  -webkit-transform: translate(422px, 422px);
+  -moz-transform: translate(422px, 422px);
+  transform: translate(422px, 422px); }
 
 .tile {
   position: absolute;
-  -webkit-transition: 100ms ease-in-out;
-  -moz-transition: 100ms ease-in-out;
-  transition: 100ms ease-in-out;
+  -webkit-transition: 75ms ease-in-out;
+  -moz-transition: 75ms ease-in-out;
+  transition: 75ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
@@ -522,7 +522,7 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 35px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -545,47 +545,47 @@ hr {
     color: #f9f6f2;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 883.75px) {
+    font-size: 25px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 15px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 883.75px) {
+    font-size: 25px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 15px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 883.75px) {
+    font-size: 25px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 15px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
-    @media screen and (max-width: 883.75px) {
+    font-size: 15px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 10px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
-    @media screen and (max-width: 883.75px) {
+    font-size: 15px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 10px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
-    @media screen and (max-width: 883.75px) {
+    @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
 
@@ -626,9 +626,9 @@ hr {
     -moz-transform: scale(1);
     transform: scale(1); } }
 .tile-new .tile-inner {
-  -webkit-animation: appear 200ms ease 100ms;
-  -moz-animation: appear 200ms ease 100ms;
-  animation: appear 200ms ease 100ms;
+  -webkit-animation: appear 200ms ease 75ms;
+  -moz-animation: appear 200ms ease 75ms;
+  animation: appear 200ms ease 75ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
@@ -680,9 +680,9 @@ hr {
     transform: scale(1); } }
 .tile-merged .tile-inner {
   z-index: 20;
-  -webkit-animation: pop 200ms ease 100ms;
-  -moz-animation: pop 200ms ease 100ms;
-  animation: pop 200ms ease 100ms;
+  -webkit-animation: pop 200ms ease 75ms;
+  -moz-animation: pop 200ms ease 75ms;
+  animation: pop 200ms ease 75ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
@@ -721,7 +721,7 @@ hr {
     display: inline-block;
     vertical-align: middle; }
 
-@media screen and (max-width: 883.75px) {
+@media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
 
@@ -789,9 +789,9 @@ hr {
     z-index: 100;
     padding-top: 40px;
     text-align: center;
-    -webkit-animation: fade-in 800ms ease 1200ms;
-    -moz-animation: fade-in 800ms ease 1200ms;
-    animation: fade-in 800ms ease 1200ms;
+    -webkit-animation: fade-in 800ms ease 900ms;
+    -moz-animation: fade-in 800ms ease 900ms;
+    animation: fade-in 800ms ease 900ms;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
@@ -837,16 +837,16 @@ hr {
     .game-message.game-won, .game-message.game-over {
       display: block; }
       .game-message.game-won p, .game-message.game-over p {
-        -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
-        -moz-animation: slide-up 1.5s ease-in-out 2500ms;
-        animation: slide-up 1.5s ease-in-out 2500ms;
+        -webkit-animation: slide-up 1.5s ease-in-out 1875ms;
+        -moz-animation: slide-up 1.5s ease-in-out 1875ms;
+        animation: slide-up 1.5s ease-in-out 1875ms;
         -webkit-animation-fill-mode: both;
         -moz-animation-fill-mode: both;
         animation-fill-mode: both; }
       .game-message.game-won .mailing-list, .game-message.game-over .mailing-list {
-        -webkit-animation: fade-in 1.5s ease-in-out 2500ms;
-        -moz-animation: fade-in 1.5s ease-in-out 2500ms;
-        animation: fade-in 1.5s ease-in-out 2500ms;
+        -webkit-animation: fade-in 1.5s ease-in-out 1875ms;
+        -moz-animation: fade-in 1.5s ease-in-out 1875ms;
+        animation: fade-in 1.5s ease-in-out 1875ms;
         -webkit-animation-fill-mode: both;
         -moz-animation-fill-mode: both;
         animation-fill-mode: both; }

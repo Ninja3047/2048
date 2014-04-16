@@ -1,8 +1,8 @@
 @import "helpers";
 @import "fonts/clear-sans.css";
 
-$field-width: 863.75px;
-$grid-spacing: 15px;
+$field-width: 500px;
+$grid-spacing: 7px;
 $grid-row-cells: 7;
 $tile-size: ($field-width - $grid-spacing * ($grid-row-cells + 1)) / $grid-row-cells;
 $tile-border-radius: 3px;
@@ -19,7 +19,7 @@ $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 $game-container-margin-top: 40px;
 $game-container-background: #bbada0;
 
-$transition-speed: 100ms;
+$transition-speed: 75ms;
 
 html, body {
   margin: 0;
@@ -404,7 +404,7 @@ hr {
     font-weight: bold;
     z-index: 10;
 
-    font-size: 55px;
+    font-size: 35px;
   }
 
   // Movement transition
@@ -465,17 +465,17 @@ hr {
 
       // Adjust font size for bigger numbers
       @if $power >= 100 and $power < 1000 {
-        font-size: 45px;
+        font-size: 25px;
 
         // Media queries placed here to avoid carrying over the rest of the logic
         @include smaller($mobile-threshold) {
-          font-size: 25px;
+          font-size: 15px;
         }
       } @else if $power >= 1000 {
-        font-size: 35px;
+        font-size: 15px;
 
         @include smaller($mobile-threshold) {
-          font-size: 15px;
+          font-size: 10px;
         }
       }
     }
