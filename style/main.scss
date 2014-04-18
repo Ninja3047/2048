@@ -488,7 +488,7 @@ hr {
     color: $bright-text-color;
     background: mix(#333, $tile-gold-color, 95%);
 
-    font-size: 30px;
+    font-size: 17px;
 
     @include smaller($mobile-threshold) {
       font-size: 10px;
