@@ -543,6 +543,13 @@ hr {
   margin-bottom: 0;
 }
 
+.play-button {
+    @include button;
+    display: block;
+    text-align: center;
+    float: right;
+}
+
 .restart-button {
   @include button;
   display: block;

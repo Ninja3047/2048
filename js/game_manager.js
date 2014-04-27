@@ -4,10 +4,11 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.storageManager = new StorageManager;
   this.actuator       = new Actuator;
 
-  this.startTiles     = 3;
+  this.startTiles     = 8;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
+  this.inputManager.on("play", this.play.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
 
   this.setup();
@@ -19,6 +20,14 @@ GameManager.prototype.restart = function () {
   this.actuator.continueGame(); // Clear the game won/lost message
   this.setup();
 };
+
+// Auto-run the game
+GameManager.prototype.play = function() {
+  while(this.isGameTerminated())
+  {
+    self.emit("move", Math.floor(Math.random()*3));
+  }
+}
 
 // Keep playing after winning (allows going over 2048)
 GameManager.prototype.keepPlaying = function () {
